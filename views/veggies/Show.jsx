@@ -8,7 +8,7 @@ function Show({ veggie }) {
         <div>
             <h1> {veggie.name} is {veggie.color}</h1>
             {
-                veggie.readyToEat ? "It's ready to eat" : "Ew, Yuck!"
+                veggie.readyToEat ? "It's ready to eat." : "Ew, Yuck!"
             }
         </div>
     )
