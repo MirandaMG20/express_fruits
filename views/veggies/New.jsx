@@ -4,6 +4,13 @@ function New() {
     return (
         <div>
             <h1>New Veggie Page</h1>
+            <a href={`/`}> Home </a>
+            <br />
+            <a href="/fruits"> Fruits </a>
+            <br />
+            <a href="/veggies"> Veggies </a>
+            <br />
+            <br />
 
             <form action='/veggies' method='POST'>
                 Name: <input type='text' name='name' /> <br />

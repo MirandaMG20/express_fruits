@@ -26,7 +26,12 @@ app.use(express.urlencoded({extended: false}))
 
 //ROUTE Home
 app.get('/', (req, res) => {
-    res.send('<h1> Express Fruits and Veggies </h1>')
+    res.send(`
+    <h1> Express 
+    <a href="/fruits">Fruits</a> and 
+    <a href="/veggies"> Veggies </a>
+    </h1>
+    `)
 })
 
 // Route Fruits Index
